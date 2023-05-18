@@ -1,3 +1,13 @@
+<script setup lang="ts">
+useHead({
+    title: "About"
+})
+useSeoMeta({
+    title: "About",
+    description: "About page",
+    ogDescription: "About page"
+})
+</script>
 <template>
     <UContainer class="py-8">
         <h1 class="text-3xl font-bold">About</h1>
